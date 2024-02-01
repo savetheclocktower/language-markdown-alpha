@@ -1,6 +1,6 @@
 {
   "name": "language-markdown-alpha",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/main",
   "description": "An experimental replacement GFM package",
   "keywords": [
