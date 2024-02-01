@@ -6,7 +6,7 @@ The Markdown grammar bundled in this package uses the [`MDeiml/tree-sitter-markd
 
 If you’ve been affected by random crashes as described in [#878](https://github.com/pulsar-edit/pulsar/issues/878), please follow these steps:
 
-1. **Disable `language.gfm`**. This grammar uses the same scope name as the builtin grammar, so they can’t be active at the same time.
+1. **Disable `language-gfm`**. This grammar uses the same scope name as the builtin grammar, so they can’t be active at the same time.
 2. Reload your window (run the **Window: Reload** command) or relaunch Pulsar.
 3. Install this package.
 
