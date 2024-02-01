@@ -1,0 +1,19 @@
+scopeName: 'source.gfm'
+type: 'modern-tree-sitter'
+name: 'Markdown (Alternative)'
+parser: 'tree-sitter-markdown'
+
+fileTypes: [
+  'md'
+  'mdown'
+  'markdown'
+]
+
+injectionRegex: '^(markdown-alt|MARKDOWN-ALT)$'
+
+treeSitter:
+  parserSource: 'github:MDeiml/tree-sitter-markdown/tree-sitter-markdown#28aa3baef73bd458d053b613b8bd10fd102b4405'
+  grammar: 'tree-sitter-markdown/tree-sitter-markdown.wasm'
+  highlightsQuery: 'tree-sitter-markdown/highlights.scm'
+  foldsQuery: 'tree-sitter-markdown/folds.scm'
+  tagsQuery: 'tree-sitter-markdown/tags.scm'

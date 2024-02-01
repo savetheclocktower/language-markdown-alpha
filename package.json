@@ -1,0 +1,16 @@
+{
+  "name": "language-markdown-alpha",
+  "version": "0.0.1",
+  "main": "lib/main",
+  "description": "An experimental replacement GFM package",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/savetheclocktower/language-markdown-alpha",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0",
+    "node": ">=12"
+  }
+}
